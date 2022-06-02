@@ -2,4 +2,4 @@
 Contributors
 ============
 
-* Brandon Spendlove <brandon@youfibre.com>
+* Brandon Spendlove <br@ndonspendlove.dev>
