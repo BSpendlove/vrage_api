@@ -1,0 +1,20 @@
+{
+    "data": {
+        "Game": "Space Engineers",
+        "IsReady": true,
+        "PirateUsedPCU": 0,
+        "Players": 1,
+        "ServerId": 90159691648907273,
+        "ServerName": "Peytnuc Survival - Lulcia System",
+        "SimSpeed": 1.02,
+        "SimulationCpuLoad": 5.0,
+        "TotalTime": 13713,
+        "UsedPCU": 1388,
+        "Version": "1.201.013",
+        "WorldName": "Lulcia System"
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.1274
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "data": {
+        "Grids": [
+            {
+                "DisplayName": "Large Grid 6009",
+                "EntityId": 137558611801016009,
+                "GridSize": "Large",
+                "BlocksCount": 13,
+                "Mass": 19888.14,
+                "Position": {
+                    "X": -186328.02986192168,
+                    "Y": 1260.8000986990228,
+                    "Z": -100927.97279429984
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 218120.844,
+                "OwnerSteamId": 12341234567856780,
+                "OwnerDisplayName": "Blitzkrieg Krankenvargan",
+                "IsPowered": false,
+                "PCU": 126
+            },
+            {
+                "DisplayName": "Static Grid 418",
+                "EntityId": 114972051129800418,
+                "GridSize": "Large",
+                "BlocksCount": 69,
+                "Mass": 0.0,
+                "Position": {
+                    "X": 12902.31154803468,
+                    "Y": 54509.318492804814,
+                    "Z": -24872.677762954674
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 22126.4141,
+                "OwnerSteamId": 12341234567856780,
+                "OwnerDisplayName": "Blitzkrieg Krankenvargan",
+                "IsPowered": true,
+                "PCU": 573
+            },
+            {
+                "DisplayName": "Respawn Planet Pod",
+                "EntityId": 96661924472861919,
+                "GridSize": "Small",
+                "BlocksCount": 117,
+                "Mass": 0.0,
+                "Position": {
+                    "X": 1311.447272490448,
+                    "Y": 61206.93627857193,
+                    "Z": -7257.648837552515
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 3.21670055,
+                "OwnerSteamId": 12341234567856780,
+                "OwnerDisplayName": "Blitzkrieg Krankenvargan",
+                "IsPowered": true,
+                "PCU": 687
+            },
+            {
+                "DisplayName": "Small Grid 5721",
+                "EntityId": 85005596723615721,
+                "GridSize": "Small",
+                "BlocksCount": 1,
+                "Mass": 698.999939,
+                "Position": {
+                    "X": 1308.803229521698,
+                    "Y": 61205.91113208755,
+                    "Z": -7257.782626615015
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 4.1696806,
+                "OwnerSteamId": 0,
+                "OwnerDisplayName": "",
+                "IsPowered": false,
+                "PCU": 1
+            },
+            {
+                "DisplayName": "Small Grid 3377",
+                "EntityId": 113766366492433377,
+                "GridSize": "Small",
+                "BlocksCount": 1,
+                "Mass": 698.999939,
+                "Position": {
+                    "X": 1311.677252959198,
+                    "Y": 61205.25170825943,
+                    "Z": -7257.295321927515
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 2.62081718,
+                "OwnerSteamId": 0,
+                "OwnerDisplayName": "",
+                "IsPowered": false,
+                "PCU": 1
+            }
+        ]
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.16920000000000002
+    }
+}

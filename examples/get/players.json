@@ -1,0 +1,18 @@
+{
+    "data": {
+        "Players": [
+            {
+                "SteamID": 12341234567856780,
+                "DisplayName": "Blitzkrieg Krankenvargan",
+                "FactionName": "",
+                "FactionTag": "",
+                "PromoteLevel": 4,
+                "Ping": 69
+            }
+        ]
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.1331
+    }
+}

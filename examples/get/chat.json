@@ -1,0 +1,28 @@
+{
+    "data": {
+        "Messages": [
+            {
+                "SteamID": 12341234567856780,
+                "DisplayName": "Blitzkrieg Krankenvargan",
+                "Content": "test",
+                "Timestamp": "637897148159296232"
+            },
+            {
+                "SteamID": 12341234567856780,
+                "DisplayName": "Blitzkrieg Krankenvargan",
+                "Content": "another test yes?",
+                "Timestamp": "637897148217976252"
+            },
+            {
+                "SteamID": 12341234567856780,
+                "DisplayName": "Blitzkrieg Krankenvargan",
+                "Content": "yes probably _ ? _ ?",
+                "Timestamp": "637897148264806639"
+            }
+        ]
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.13240000000000002
+    }
+}

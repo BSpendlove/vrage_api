@@ -1,0 +1,283 @@
+{
+    "data": {
+        "FloatingObjects": [
+            {
+                "DisplayName": "Stone (154)",
+                "EntityId": 87161169531106728,
+                "Kind": "FloatingObject",
+                "Mass": 153.505966,
+                "Position": {
+                    "X": 1407.338874052948,
+                    "Y": 61202.57250904068,
+                    "Z": -7282.468173490015
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 99.72511
+            },
+            {
+                "DisplayName": "Oxygen Bottle",
+                "EntityId": 143652789006993129,
+                "Kind": "FloatingObject",
+                "Mass": 30.0,
+                "Position": {
+                    "X": 94244.57893044368,
+                    "Y": -146191.0906292686,
+                    "Z": -100778.50815697317
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 245757.3
+            },
+            {
+                "DisplayName": "Hydrogen Bottle",
+                "EntityId": 118713124393770531,
+                "Kind": "FloatingObject",
+                "Mass": 30.0,
+                "Position": {
+                    "X": 95376.28623635188,
+                    "Y": -141786.1990429649,
+                    "Z": -95752.4764530242
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240594.5
+            },
+            {
+                "DisplayName": "Small Steel Tube (11x)",
+                "EntityId": 118766828362170759,
+                "Kind": "FloatingObject",
+                "Mass": 44.0,
+                "Position": {
+                    "X": 95371.22764260188,
+                    "Y": -141794.9549023399,
+                    "Z": -95760.4803592742
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240602.844
+            },
+            {
+                "DisplayName": "Girder (12x)",
+                "EntityId": 140907161528330294,
+                "Kind": "FloatingObject",
+                "Mass": 72.0,
+                "Position": {
+                    "X": 95381.30466896907,
+                    "Y": -141788.7009960899,
+                    "Z": -95753.4998905242
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240598.938
+            },
+            {
+                "DisplayName": "Bulletproof Glass (30x)",
+                "EntityId": 74039017939332829,
+                "Kind": "FloatingObject",
+                "Mass": 450.0,
+                "Position": {
+                    "X": 95375.07059914485,
+                    "Y": -141778.00812499615,
+                    "Z": -95754.2791873992
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240587.766
+            },
+            {
+                "DisplayName": "Gravel (1.92k)",
+                "EntityId": 126790882039240222,
+                "Kind": "FloatingObject",
+                "Mass": 1916.6001,
+                "Position": {
+                    "X": 95383.36802346125,
+                    "Y": -141811.1218945274,
+                    "Z": -95748.7127811492
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240616.922
+            },
+            {
+                "DisplayName": "Thruster Comp. (32x)",
+                "EntityId": 103812281417455749,
+                "Kind": "FloatingObject",
+                "Mass": 1280.0,
+                "Position": {
+                    "X": 95368.27817971125,
+                    "Y": -141791.9080273399,
+                    "Z": -95758.65369911795
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240598.453
+            },
+            {
+                "DisplayName": "Steel Plate (76x)",
+                "EntityId": 137925824968807846,
+                "Kind": "FloatingObject",
+                "Mass": 1520.0,
+                "Position": {
+                    "X": 95379.34019143,
+                    "Y": -141809.81867187115,
+                    "Z": -95749.9598514617
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240614.688
+            },
+            {
+                "DisplayName": "Interior Plate (4x)",
+                "EntityId": 95343967204090873,
+                "Kind": "FloatingObject",
+                "Mass": 12.0,
+                "Position": {
+                    "X": 95375.55607277766,
+                    "Y": -141784.14191405865,
+                    "Z": -95756.8787967742
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240594.078
+            },
+            {
+                "DisplayName": "Computer (7x)",
+                "EntityId": 102988910565720739,
+                "Kind": "FloatingObject",
+                "Mass": 3.0,
+                "Position": {
+                    "X": 95389.93290383235,
+                    "Y": -141793.1424023399,
+                    "Z": -95749.5770389617
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240604.609
+            },
+            {
+                "DisplayName": "Construction Comp. (28x)",
+                "EntityId": 119056475056809232,
+                "Kind": "FloatingObject",
+                "Mass": 224.0,
+                "Position": {
+                    "X": 95389.72666603938,
+                    "Y": -141793.5261914024,
+                    "Z": -95750.34412880545
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 240605.156
+            },
+            {
+                "DisplayName": "Stone (238)",
+                "EntityId": 101000458808623228,
+                "Kind": "FloatingObject",
+                "Mass": 238.252045,
+                "Position": {
+                    "X": 1462.082848786662,
+                    "Y": 61023.492748688805,
+                    "Z": -7844.994631968335
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 635.818359
+            },
+            {
+                "DisplayName": "Stone (121)",
+                "EntityId": 72220370176318424,
+                "Kind": "FloatingObject",
+                "Mass": 121.247162,
+                "Position": {
+                    "X": 1463.132653474162,
+                    "Y": 61023.36848111068,
+                    "Z": -7845.025393687085
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 636.131958
+            },
+            {
+                "DisplayName": "Stone (60.4)",
+                "EntityId": 115619577565024667,
+                "Kind": "FloatingObject",
+                "Mass": 60.44259,
+                "Position": {
+                    "X": 1407.287116240448,
+                    "Y": 61202.55175708755,
+                    "Z": -7282.704501615015
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 99.74223
+            },
+            {
+                "DisplayName": "Stone (76.1)",
+                "EntityId": 110684309118513855,
+                "Kind": "FloatingObject",
+                "Mass": 76.09073,
+                "Position": {
+                    "X": 1462.890465974162,
+                    "Y": 61023.37971157943,
+                    "Z": -7845.020999155835
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 636.0669
+            },
+            {
+                "DisplayName": "Stone (288)",
+                "EntityId": 123489300339063441,
+                "Kind": "FloatingObject",
+                "Mass": 288.294525,
+                "Position": {
+                    "X": 1461.725426911662,
+                    "Y": 61023.48322720443,
+                    "Z": -7845.183596812085
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 635.91156
+            },
+            {
+                "DisplayName": "S-10 Magazine (4x)",
+                "EntityId": 113943777529957377,
+                "Kind": "FloatingObject",
+                "Mass": 3.0,
+                "Position": {
+                    "X": 1310.910651396698,
+                    "Y": 61205.1645500563,
+                    "Z": -7259.670321927515
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 5.036075
+            },
+            {
+                "DisplayName": "Stone (141)",
+                "EntityId": 130227667276333189,
+                "Kind": "FloatingObject",
+                "Mass": 141.116211,
+                "Position": {
+                    "X": 1401.028815459198,
+                    "Y": 61202.16894458755,
+                    "Z": -7282.011142240015
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 93.56411
+            },
+            {
+                "DisplayName": "Stone (91)",
+                "EntityId": 78417026286592813,
+                "Kind": "FloatingObject",
+                "Mass": 91.03253,
+                "Position": {
+                    "X": 1462.643395661662,
+                    "Y": 61023.38801236068,
+                    "Z": -7845.029299937085
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 636.0137
+            },
+            {
+                "DisplayName": "Stone (56.5)",
+                "EntityId": 97407878947966591,
+                "Kind": "FloatingObject",
+                "Mass": 56.460495,
+                "Position": {
+                    "X": 1461.455895661662,
+                    "Y": 61023.43537564193,
+                    "Z": -7845.006838999585
+                },
+                "LinearSpeed": 0.0,
+                "DistanceToPlayer": 635.698364
+            }
+        ]
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.2937
+    }
+}

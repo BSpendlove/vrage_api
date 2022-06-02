@@ -1,0 +1,15 @@
+{
+    "data": {
+        "KickedPlayers": [
+            {
+                "SteamID": 12341234567856780,
+                "DisplayName": "Blitzkrieg Krankenvargan",
+                "Time": 281550
+            }
+        ]
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.127
+    }
+}

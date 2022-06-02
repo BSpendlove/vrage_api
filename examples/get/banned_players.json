@@ -1,0 +1,14 @@
+{
+    "data": {
+        "BannedPlayers": [
+            {
+                "SteamID": 12341234567856780,
+                "DisplayName": "Blitzkrieg Krankenvargan"
+            }
+        ]
+    },
+    "meta": {
+        "apiVersion": "1.0",
+        "queryTime": 0.1231
+    }
+}
