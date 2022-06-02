@@ -48,14 +48,23 @@ GET
 -------------------
 
 `get_players <./examples/get/players.json>` - Gathers data about all the players such as: SteamID, Display Name, Faction, Faction Level and Ping
+
 `get_asteroids <./examples/get/asteroids.json>` - Gathers data about all the asteroids in the current session such as: EntityId, position and display name
+
 `get_floating_objects <./examples/get/floating_objects.json>` - Gathers data about all the floating objects that exist in the current session such as: EntityId, Kind, Position, Mass and Speed
+
 `get_grids <./exmaples/get/grids.json>` - Gathers data about all the grids that exist in the current session such as: EntityId, Display Name, Position, Mass, Owner SteamID, total amount of PCU, powered status, etc...
+
 `get_planets <./examples/get/planets.json>` - Gathers data about all the planets that exist in the current session such as: EntityId, Display Name and Position
+
 `get_chat <./examples/get/chat.json>` - Gathers data about all the chat messages in the current session such as: SteamID, Display Name, Content (Message) and Timestamp
+
 `get_server_info <./examples/get/server_info.json>` - Gathers data about the server such as: ServerId, Server Name, Total uptime, CPU load, World Name, Version, total amount of Players, total used PCU etc...
+
 `get_server_ping<./examples/get/server_ping.json>` - Simple healthcheck for the server that responds "Pong" if successful.
+
 `get_banned_players <./examples/get/banned_players.json>` - Gathers data about all banned players such as:
+
 `get_kicked_players <./examples/get/kicked_players.json>`
 
 DELETE / BAN / KICK
@@ -73,6 +82,20 @@ All delete endpoints will typically just return a HTTP status code of 200 even i
 So some care is required if you really want to identify for example, if a player has actually been kicked/banned properly based on gathering the data after performing a specific action.
 
 A centralized API for multiple servers (and ensuring things like log history, player history) will be linked here directly once developed.
+
+How to use
+======================
+
+    from vrage_api.vrage_api import VRageAPI
+
+    api = VRageAPI(url="http://localhost:8080", token="my-secret-token")
+    players = api.get_players()
+
+    for player in players["data"]["Players"]:
+        print(player["SteamID"], player["DisplayName"])
+
+        if player["SteamID"] == 12341234567856780:
+            api.player_ban(steam_id=12341234567856780)
 
 .. _pyscaffold-notes:
 
