@@ -70,7 +70,7 @@ class VRageAPI:
                 headers=self.build_headers(endpoint=endpoint),
             )
         else:
-            request = requests.post(self.url + endpoint,json=json,headers=self.build_headers(endpoint=endpoint))
+            request = operation_method(self.url + endpoint,json=json,headers=self.build_headers(endpoint=endpoint))
 
         if not request.status_code == 200:
             raise ValueError(
