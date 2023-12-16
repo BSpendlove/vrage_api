@@ -43,7 +43,7 @@ class VRageAPI:
         self.headers.update({"Date": date, "Authorization": f"{nonce}:{hmac_encoded}"})
         return self.headers
 
-    def query(self, endpoint: str, operation: str = "get") -> dict:
+    def query(self, endpoint: str, operation: str = "get",json=None) -> dict:
         """Builds a GET HTTP message
 
         Arguments:
@@ -64,10 +64,13 @@ class VRageAPI:
         logger.info(endpoint)
         operation_method = valid_operations[operation.lower()]
 
-        request = operation_method(
-            self.url + endpoint,
-            headers=self.build_headers(endpoint=endpoint),
-        )
+        if json is None:
+            request = operation_method(
+                self.url + endpoint,
+                headers=self.build_headers(endpoint=endpoint),
+            )
+        else:
+            request = operation_method(self.url + endpoint,json=json,headers=self.build_headers(endpoint=endpoint))
 
         if not request.status_code == 200:
             raise ValueError(
@@ -203,7 +206,7 @@ class VRageAPI:
         )
 
     def send_chat_message(self, message: str) -> dict:
-        pass
+        return self.query(f"{self.api_endpoint}/session/chat",operation='post',json=message)
 
     def stop_server(self) -> dict:
         """Stops the current server session"""
