@@ -43,7 +43,7 @@ class VRageAPI:
         self.headers.update({"Date": date, "Authorization": f"{nonce}:{hmac_encoded}"})
         return self.headers
 
-    def query(self, endpoint: str, operation: str = "get") -> dict:
+    def query(self, endpoint: str, operation: str = "get",json=None) -> dict:
         """Builds a GET HTTP message
 
         Arguments:
